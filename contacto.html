@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria | Ulises Moscoso</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+      
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+
+   <header class="main-header">
+       <div class="container container--flex">
+           <div class="logo-container column column--50">
+               <h1 class="logo">Ortopedia Moscoso</h1>
+           </div>
+           
+           <!-- Telefono y Mensaje !-->
+           <div class="main-header__contactInfo column column--50">
+               <p class="main-header__contactInfo__phone">
+                   <span class="icon-celular">962-767-996</span>
+               
+               
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-gps">Alamos con Arriba Peru</span>
+                </p>
+                
+           </div>     
+       </div>
+   </header>
+   
+   <!-- Creando el menu !-->
+   <nav class="main_nav">
+       <div class="container container--flex">
+           <span class="icon-menu" id="btnmenu"></span>
+           <ul class="menu" id="menu">
+              
+               <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
+               <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+               <li class="menu__item"><a href="Galeria.html" class="menu__link ">Galeria</a></li>
+               <li class="menu__item"><a href="Contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+               
+           </ul>
+           
+         <div class="social-icon">
+             <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+             <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+             <a href="" class="social-icon__link"><span class="icon-mensaje"></span></a>
+         </div>
+           
+       </div>
+   </nav>
+   
+   <section class="banner">
+       <img src="img/plantillas/plantillas1.1.jpeg" alt="" class="banner__img">
+       <div class="banner__content">Dejenos un mensaje en nuestro correo Electronico!</div>
+   </section>
+    
+    <main class="main">
+   
+      <section class="group contact">
+          <h2 class="group__title">Contactenos</h2>
+          <div class="container container--flex">
+              <div class="contact-information column column--50">
+                  <h3 class="column__title">Informacion de contacto</h3>
+                  
+                  <p class="group__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore repudiandae quam ad inventore sint numquam porro, totam cupiditate nihil sed dolorem omnis nisi, commodi deleniti doloribus minus autem tempore natus.</p>
+                  <p class="group__txt"><span class="icon-celular"></span>Telefono 1: 962767996</p>
+                  <p class="group__txt"><span class="icon-celular"></span>Telefono 2: 912345567</p>
+                  <p class="group__txt"><span class="icon-gps"></span>Alamos con Arriba Peru</p>
+                  <p class="group__txt"><span class="icon-mensaje"></span>rodrigomoscoso6@gmail.com</p>
+                  
+                  <div class="social-icon">
+                     <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                     <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                     <a href="" class="social-icon__link"><span class="icon-mensaje"></span></a>
+                 </div>
+                  
+              </div>
+              <form action="enviar-prueba.php" method="post" class="formulario column column--50">
+                 <label for="" class="formulario__label">Nombre:</label>
+                 <input type="text" class="formario__input-txt" name="nombre">
+                 
+                  <label for="" class="formulario__label">Correo:</label>
+                 <input type="text" class="formario__input-txt" name="correo">
+                 
+                 <label for="" class="formulario__label">Telefono:</label>
+                 <input type="text" class="formario__input-txt" name="telefono">
+                  
+                  <label for="" class="formulario__label">Mensaje:</label>
+                  <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                  
+                  <input type="submit" class="btn formulario__btn">
+              </form>
+          </div>
+      </section>
+    </main>
+     
+     
+     <footer class="main-footer">
+           <div class="container container--flex">
+               <div class="column column--33">
+                   <h2 class="columun__title">Porque visitarnos?</h2>
+                   <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, in nam? Harum dicta excepturi hic magnam vitae, quos tenetur nulla quas adipisci nam provident tempora. Neque, sunt obcaecati perspiciatis voluptatem.</p>
+               </div>
+               <div class="column column--33">
+                   <h2 class="columun__title contactanos">Contactanos</h2>
+                   <p class="column__txt">962-767-996</p>
+                   <p class="column__txt">Mercado Modelo - Arriba Peru</p>
+                   <p class="column__txt">rodrigomoscoso6@gmail.com</p>
+               </div>
+               <div class="column column--33">
+                   <h2 class="columun__title siguenos__redes">Siguenos en nuestras redes</h2>
+                 
+                   <p class="column__txt "><a href="" class="icon-facebook">Siguenos en facebook</a></p>
+                   <p class="column__txt "><a href=""  class="icon-instagram">Siguenos en Instragram</a></p>
+                   <p class="column__txt "><a href="" class="icon-twitter">Siguenos en Twitter</a></p>
+                 
+               </div>
+               
+               <p class="copy">Ortopedia Moscoso | Todos los derechos reservados</p>
+               
+           </div>
+       </footer>  
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>

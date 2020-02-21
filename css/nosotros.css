@@ -1,0 +1,84 @@
+
+/*----------------------Estilos de nostros.html ----------------------*/
+
+.our-team{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-team .container--flex{
+    align-items: flex-start;
+}
+
+.our-team__title{
+    color: #DE423A;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+.our-team__img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.our-team__txt{
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (min-width:480px){
+    
+    .our-team__img{
+        width: 150px;
+        height: 150px;
+         
+    }
+}
+
+@media screen and (min-width:768px){
+    
+    .our-team__img{
+        width: 220px;
+        height: 220px;
+          
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    
+    .group__title{
+        
+        font-size: 2.2em;
+    }
+    .our-team__img{
+        width: 310px;
+        height: 310px;
+        
+    }
+    
+    .our-team__title{
+        font-size: 1.6em;
+    }
+    
+    
+    
+}
+
+
+/*--------------------- Mi pc */
+
+@media screen and (min-width:1125px){
+    
+    .our-team__img{
+        width: 330px;
+        height: 330px;
+        
+    }
+}
+
+

@@ -1,0 +1,70 @@
+.gallery__img{
+    object-fit: cover;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.gallery__img:hover{
+    transform: scale(1.02);
+}
+
+.gallery__img--big{
+    height: 400px;
+    
+}
+.gallery__img--small{
+    height: 200px;
+}
+
+
+/*------------------------ Modal -----------------------*/
+
+.modal{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.8);
+    position: fixed;    
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    display: none;
+}
+
+.modal__content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.modal__img{
+    width: 50%;
+}
+
+.modal__boton{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #DE423A;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.modal--open{
+    display: block;
+}
+
+
+
+ 
